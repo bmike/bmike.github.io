@@ -5,3 +5,8 @@ title: Cider Consulting
 <div class="blurb">
 	<h1>Helping business navigate in a mobile world.</h1>
 </div><!-- /.blurb -->
+
+<div class="about">
+	{% capture about %}{% include _includes/about.md %}{% endcapture %}
+	{{ about | markdowify }}
+</div>
